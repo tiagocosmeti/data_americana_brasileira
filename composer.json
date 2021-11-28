@@ -1,0 +1,17 @@
+{
+    "name": "tiagocosmeti/data_americana_brasileira",
+    "description": "Fun\u0000\u0000o para converter data com formato americano para brasileiro",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tiagocosmeti\\DataAmericanaBrasileira\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "analistatiagocosme",
+            "email": "tiagocosme.ti@gmail.com"
+        }
+    ],
+    "require": {}
+}
