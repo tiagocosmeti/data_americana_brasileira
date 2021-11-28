@@ -17,9 +17,10 @@ Utilize o comando composer require tiagocosmeti/data_americana_brasileira
 
 <?php
 
-use Tiagocosmeti\DataAmericanaBrasileira"
+require __DIR__ . '/vendor/autoload.php';
 
-$data = '2021-11-16 14:20:31';
-echo data_americana_brasileira($data);
+use DataAmericanaBrasileira\Data;
+
+echo Data::data_americana_brasileira('2021-11-28 09:00:00');
 
 ```
