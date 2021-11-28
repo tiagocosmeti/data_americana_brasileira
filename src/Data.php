@@ -1,13 +1,11 @@
 <?php
 
-namespace Tiagocosmeti\DataAmericanaBrasileira;
+namespace DataAmericanaBrasileira;
 
-class Data
-{
+class Data{
 
     static function data_americana_brasileira($data, $hora = false)
     {
-
         $data_aux = explode(' ', $data);
         $hora = $data_aux['1'];
 
@@ -19,7 +17,6 @@ class Data
         
         return $data_aux;
 
-        
     }
 
 }
